@@ -1,0 +1,1 @@
+{"mappings":"AAEAA,QAAQC,IAAI,cCFG","sources":["Documents/GitHub/ghp-site-v1/src/app.js","Documents/GitHub/ghp-site-v1/src/main.js"],"sourcesContent":["import name from \"./main\";\n\nconsole.log(\"Hello again\", name);\n","export default \"Gilbert\";\n"],"names":["console","log"],"version":3,"file":"index.8ff1c9cf.js.map"}

@@ -1,0 +1,22 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaeede;
+
+  /* Becase we want header to be sticky later */
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  height: 2.9rem;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

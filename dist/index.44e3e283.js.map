@@ -1,0 +1,1 @@
+{"mappings":"AAEAA,QAAQC,IAAI,cCFG","sources":["demo-site/src/app.js","demo-site/src/main.js"],"sourcesContent":["import name from \"./main\";\n\nconsole.log(\"Hello again\", name);\n","export default \"Gilbert\";\n"],"names":["console","log"],"version":3,"file":"index.44e3e283.js.map"}

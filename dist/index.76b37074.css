@@ -91,7 +91,7 @@
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.9fr 1.2fr;
   gap: 9.6rem;
   align-items: center;
   padding: 0 3.2rem;
@@ -143,5 +143,58 @@
 /**************************/
 /* HOW IT WORKS SECTION*/
 /**************************/
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-number {
+  font-size: 9.8rem;
+  font-weight: 600;
+  color: #a3b36c;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-img-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-img-box::before {
+  width: 60%;
+
+  padding-bottom: 60%;
+  background-color: #eaeede;
+  z-index: -2;
+}
+
+/* .step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #a3b36c;
+  z-index: -1;
+} */
+
+.step-img {
+  width: 60%;
+}
 
 /*# sourceMappingURL=index.76b37074.css.map */

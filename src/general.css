@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #333;
@@ -52,6 +53,14 @@ body {
 
 .grid--center-v {
   align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #233349;
+  letter-spacing: -0.5px;
 }
 
 .heading-primary {
@@ -97,7 +106,8 @@ strong {
   text-decoration: none;
   display: inline-block;
   font-weight: 600;
-  /* cursor: pointer; */
+  cursor: pointer;
+  border: none;
 
   /* Put Transition on parent state */
   transition: all 0.3s;
@@ -139,6 +149,18 @@ strong {
 .link:active {
   color: #606c38;
   border-bottom: 1px solid transparent;
+}
+
+.btn--form {
+  background-color: #eaeede;
+  color: #233349;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #233349;
+  color: #fff;
 }
 
 /* HELPER */

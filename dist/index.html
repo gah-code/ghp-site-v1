@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Gilbert Haro Photo App</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/index.647fd3fe.css">
     <link rel="stylesheet" href="/index.76b37074.css">
+    <link rel="stylesheet" href="/index.cdb2481b.css">
+
+    <script defer="" src="/index.76eabeee.js"></script>
   </head>
   <body>
     <header class="header">
       <a href="#">
-        <img class="banner" src="/Banner.f32c9e69.png" alt="Gilbert Haro Photo Banner">
+        <img class="banner" src="/ghp-logo.c9ab42b3.png" alt="Gilbert Haro Photo Banner">
       </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Wedding</a></li>
-          <li><a class="main-nav-link" href="#">Family</a></li>
+          <li><a class="main-nav-link" href="#services">Services</a></li>
           <li><a class="main-nav-link" href="#">About</a></li>
           <li><a class="main-nav-link" href="#">Contact</a></li>
           <li><a class="main-nav-link nav-cta" href="#">Login</a></li>
@@ -38,8 +45,8 @@
               storytelling for your present loved ones and future generations to
               come.
             </p>
-            <a class="btn btn--temp margin-r-sm" href="#" alt="Learn more about photography services">Learn more</a>
-            <a class="btn btn--outline" href="#" alt="Book a photography session today!">Booking</a>
+            <a class="btn btn--temp margin-r-sm" href="" alt="Learn more about photography services">Learn more</a>
+            <a class="btn btn--outline" href="#cta" alt="Book a photography session today!">Booking</a>
 
             <div class="delivered-meals">
               <div class="delivered-imgs">
@@ -54,12 +61,12 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img src="/hero.c82ff104.png" class="hero-img" alt="Hero image for Gilbert Haro Photo">
+            <img src="/hero-img.eea4dd4c.png" class="hero-img" alt="Hero image for Gilbert Haro Photo">
           </div>
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="services">
         <div class="container">
           <span class="subheading">Photography services</span>
           <h2 class="heading-secondary">
@@ -127,7 +134,7 @@
 
           <div class="about-box">
             <figure class="about-fig">
-              <img src="/gallery-1.5559f3ca.jpg" alt="" class="about-img">
+              <img src="/profile.2590c81d.png" alt="" class="about-img">
 
               <blockquote class="about-text">
                 Growing up staying focused in school was difficult, it was not
@@ -186,16 +193,12 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
               <h2 class="heading-secondary">Book your first sesssion today!</h2>
-              <p class="cta-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-                quas quasi? Asperiores beatae laboriosam nostrum cum rem id
-                aliquid perspiciatis!
-              </p>
+              <p class="cta-text">Looking forward to hearing from you</p>
 
               <form action="#" class="cta-form">
                 <div>
@@ -209,20 +212,97 @@
                 </div>
 
                 <div>
-                  <label for="select-where">Where did you hear from us </label>
+                  <label for="select-where">What type of service you seeking?
+                  </label>
                   <select name="" id="select-where" required="">
                     <option value="">Please choose one option:</option>
+                    <option value="wedding">Wedding Photography</option>
+                    <option value="family">Family session</option>
+                    <option value="engagement">Engagement session</option>
                   </select>
                 </div>
 
                 <button class="btn btn--form">Sign up now</button>
               </form>
             </div>
-            <div class="cta-img-box" role="img"></div>
+            <div class="cta-img-box" role="img" aria-label="Photography services"></div>
           </div>
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img src="/ghp-logo.c9ab42b3.png" alt="" class="logo">
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon size="small" class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon size="small" class="social-icon" name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 By Gilbert Haro Photo, Inc. All rights
+            reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">Morgan Hill CA 95037</p>
+            <p>
+              <a href="" class="footer-link"> </a><br>
+              <a href="" class="footer-link">gilbertharophoto@gmail.com</a>
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <!-- <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li> -->
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="#">About Gilbert Haro Photo</a>
+            </li>
+            <!-- <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li> -->
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <!-- <li><a class="footer-link" href="#">Recipe directory </a></li> -->
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
     <script src="/index.d6f7bdd6.js" defer=""></script>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   </body>
 </html>

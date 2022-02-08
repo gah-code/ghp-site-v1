@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"dMMJq":[function(require,module,exports) {
+})({"kEjne":[function(require,module,exports) {
 "use strict";
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -524,12 +524,12 @@ var _main = require("./main");
 var _mainDefault = parcelHelpers.interopDefault(_main);
 console.log("Hello again", _mainDefault.default);
 
-},{"./main":"lyDVM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lyDVM":[function(require,module,exports) {
+},{"./main":"lyDVM","@parcel/transformer-js/src/esmodule-helpers.js":"hKD4M"}],"lyDVM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = "Gilbert";
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hKD4M"}],"hKD4M":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -559,6 +559,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["dMMJq","jwzbP"], "jwzbP", "parcelRequire94c2")
+},{}]},["kEjne","jwzbP"], "jwzbP", "parcelRequire94c2")
 
 //# sourceMappingURL=index.d6f7bdd6.js.map

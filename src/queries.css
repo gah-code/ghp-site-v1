@@ -207,7 +207,7 @@
 
 @media (max-width: 34em) {
   .grid {
-    row-gap: 5rem;
+    row-gap: 4.8rem;
   }
 
   .grid--2-cols,
@@ -326,7 +326,7 @@
 
 @media (max-width: 23em) {
   .grid {
-    row-gap: 5rem;
+    row-gap: 6.5rem;
   }
 
   .gallery {

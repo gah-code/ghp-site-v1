@@ -207,7 +207,7 @@
 
 @media (max-width: 34em) {
   .grid {
-    row-gap: 4.8rem;
+    row-gap: 5rem;
   }
 
   .grid--2-cols,
@@ -255,17 +255,40 @@
     gap: 1.2rem;
   }
 
+  .section-cta {
+    /* top / horizontal / left */
+    padding: 12.8rem 0 12.8rem;
+  }
+
   .cta {
     grid-template-columns: 1fr;
   }
 
+  .cta .heading-secondary {
+    color: inherit;
+    margin-bottom: 2rem;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-form label {
+    margin-bottom: 2rem;
+  }
+
   .cta-text-box {
-    padding: 3.2rem;
+    padding: 3.5rem;
   }
 
   .cta-img-box {
     height: 32rem;
     grid-row: 1;
+  }
+
+  .cta-form input,
+  .cta-form select {
+    padding: 1.5rem;
   }
 }
 
@@ -274,6 +297,34 @@
 /**************************/
 
 @media (max-width: 25em) {
+  .grid {
+    row-gap: 5rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-form label {
+    margin-bottom: 2.2rem;
+  }
+
+  .cta-form input,
+  .cta-form select {
+    padding: 2.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 375px (iPhone X) */
+/**************************/
+
+@media (max-width: 23em) {
   .grid {
     row-gap: 5rem;
   }

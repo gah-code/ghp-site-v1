@@ -321,10 +321,21 @@
 }
 
 /**************************/
-/* BELOW 375px (iPhone X) */
+/* BELOW 375px 812px (iPhone X) */
 /**************************/
 
-@media (max-width: 23em) {
+/* 2436x1125px at 458ppi */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+
+/* @media only screen and (device-width: 23em) and (device-height: 50.75em) and (-webkit-device-pixel-ratio: 3) {
+} */
+
+/* @media (max-width: 23em) {
   .grid {
     row-gap: 6.5rem;
   }
@@ -346,7 +357,7 @@
   .cta-form select {
     padding: 2rem;
   }
-}
+} */
 
 /**************************/
 /* Fixing Safari flexbox gap */
